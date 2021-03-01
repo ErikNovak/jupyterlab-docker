@@ -2,7 +2,7 @@
 FROM continuumio/miniconda3
 
 # installation of jupyterlab
-RUN conda install -c conda-forge "jupyterlab==2.2.0" "ipywidgets>=7.5"
+RUN conda install -c conda-forge jupyterlab "ipywidgets>=7.5"
 
 # install python libraries (conda)
 RUN conda install -c anaconda nltk
