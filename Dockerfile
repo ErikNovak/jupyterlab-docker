@@ -11,13 +11,12 @@ RUN conda install -c conda-forge gensim
 RUN conda install -c conda-forge matplotlib
 RUN conda install -c conda-forge pandas
 RUN conda install -c conda-forge python-dotenv
-RUN conda install -c conda-forge tensorflow
+RUN conda install -c conda-forge tensorboard
 RUN conda install -c conda-forge tqdm
 RUN conda install -c conda-forge spacy
-RUN conda install -c conda-forge cupy
 RUN conda install -c huggingface transformers
 RUN conda install -c intel scikit-learn
-RUN conda install -c plotly plotly=4.14.3
+RUN conda install -c plotly plotly
 RUN conda install -c plotly python-kaleido
 RUN conda install -c pytorch pytorch torchvision torchaudio cudatoolkit=11
 
